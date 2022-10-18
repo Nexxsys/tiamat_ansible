@@ -1,0 +1,6 @@
+- hosts: "*"
+  become: yes
+  tasks:
+    - name: shutdown
+      community.general.shutdown:
+        delay: 60
