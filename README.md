@@ -1,4 +1,4 @@
-# tiamat_ansible
+# Tiamat Ansible
 
 These are the anisble playooks and shell scripts for Tiamat
 
@@ -11,9 +11,10 @@ ansible-playbook ./playbooks/apt.yml --user nexxsys --ask-pass --ask-become-pass
 ```
 
 
+## Searxng
 Reference:https://docs.searxng.org/admin/installation-docker.html
 
-Searxng
+
 ```shell
 $ mkdir my-instance
 $ cd my-instance
